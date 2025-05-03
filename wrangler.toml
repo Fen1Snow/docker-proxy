@@ -15,7 +15,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 CUSTOM_DOMAIN = "hub.roker.org"
 
 [env.production]
-name = "cloudflare-docker-proxy"
+name = "docker-proxy"
 # routes = [
 #   { pattern = "docker.hub.roker.org", custom_domain = true },
 #   { pattern = "quay.hub.roker.org", custom_domain = true },
